@@ -8,7 +8,7 @@ def location(weather)
     :temperature_farenheit => 66.3
   }
   
-  puts weather
+  puts weather.values
   
 end
 
