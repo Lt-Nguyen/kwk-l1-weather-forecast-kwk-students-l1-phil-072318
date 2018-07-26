@@ -5,7 +5,7 @@ def location(weather)
 	weather = {
     :city => ["New York"],
     :description => ["Partly Cloudy"],
-    :temperature_farenheit => 66.3
+    :temperature_farenheit => [66.3]
   }
   
   puts weather.values
