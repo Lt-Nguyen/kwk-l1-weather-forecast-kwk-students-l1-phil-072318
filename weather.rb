@@ -18,7 +18,7 @@ location("location")
 
 def description
   
-  puts []
+  puts weather[:description][0]
   
 end
 
