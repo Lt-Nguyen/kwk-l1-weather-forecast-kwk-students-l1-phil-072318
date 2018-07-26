@@ -14,21 +14,23 @@
 
 
 
-# 2. Using the location method as a guide, write a method called "description" so it returns the description from the weather hash. 
 
-def description(weather)
+
+# def description(weather)
   
-  	weather = {
-    :city => ["New York"],
-    :description => ["partly cloudy"],
-    :temperature_farenheit => [66.3]
-  }
+#   	weather = {
+#     :city => ["New York"],
+#     :description => ["partly cloudy"],
+#     :temperature_farenheit => [66.3]
+#   }
 
-  puts weather[:description][0]
+#   puts weather[:description][0]
   
-end
+# end
 
-description("description")
+# description("description")
+
+
 
 
 
