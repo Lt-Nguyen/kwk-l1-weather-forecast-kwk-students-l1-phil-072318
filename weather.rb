@@ -1,16 +1,16 @@
-def location(weather)
+# def location(weather)
   
-	weather = {
-    :city => ["New York"],
-    :description => ["partly cloudy"],
-    :temperature_farenheit => [66.3]
-  }
+# 	weather = {
+#     :city => ["New York"],
+#     :description => ["partly cloudy"],
+#     :temperature_farenheit => [66.3]
+#   }
   
-  puts "The weather in #{weather[:city][0]} is #{weather[:temperature_farenheit][0]} degrees and the skies are looking #{weather[:description][0]}."
+#   puts "The weather in #{weather[:city][0]} is #{weather[:temperature_farenheit][0]} degrees and the skies are looking #{weather[:description][0]}."
   
-end
+# end
 
-location("location")
+# location("location")
 
 
 
@@ -18,6 +18,12 @@ location("location")
 
 def description
   
+  	weather = {
+    :city => ["New York"],
+    :description => ["partly cloudy"],
+    :temperature_farenheit => [66.3]
+  }
+
   puts weather[:description][0]
   
 end
