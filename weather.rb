@@ -8,8 +8,7 @@ def location(weather)
     :temperature_farenheit => [66.3]
   }
   
-  puts weather.values
-  puts weather.keys
+  puts "The weather in #{weather[:city][0]} is #{weather[:temperature_farenheit][0]} degrees and the skies are looking #{weather[:description][0]}."
   
 end
 
