@@ -9,6 +9,7 @@ def location(weather)
   }
   
   puts weather.values
+  puts weather.keys
   
 end
 
